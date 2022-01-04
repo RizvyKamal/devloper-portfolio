@@ -7,8 +7,9 @@ body{
     color: orange;
 }
 
-section{
+.flexible-cointainer{
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width{
@@ -54,4 +55,41 @@ section{
 
 .half-width-two p{
     text-align: justify;
+}
+
+.half-width-bot{
+    box-shadow: 10px 10px 40px grey;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+h1{
+    font-size: 35px;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+#web-dev{
+    border-image: linear-gradient(yellow,orange);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+#content-creator{
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+.copyright{
+    text-align: center;
 }
