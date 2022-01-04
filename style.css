@@ -17,6 +17,13 @@ section{
     padding-top: 5%;
 }
 
+.half-width-two{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
 .half-width img{
     width: 70%;
 }
@@ -33,4 +40,18 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half-width p{
+    text-align: justify;
+}
+
+.half-width-two p{
+    text-align: justify;
 }
