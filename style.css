@@ -79,7 +79,7 @@ h1{
 }
 
 #web-dev{
-    border-image: linear-gradient(yellow,orange);
+    border-image: linear-gradient(orange,red);
     border-image-slice: 1;
     border-left: 7px solid;
 }
