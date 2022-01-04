@@ -28,6 +28,10 @@ section{
     width: 70%;
 }
 
+.half-width-two img{
+    width: 80%;
+}
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(black,grey);
